@@ -8,6 +8,8 @@ WORKDIR /root
 
 RUN apt-get update && apt-get update -y
 RUN apt-get install -y build-essential wget git
+RUN apt-get install -y libglu1-mesa libxi-dev libxmu-dev libglu1-mesa-dev freeglut3-dev libosmesa6-dev
+RUN apt-get install -y libglib2.0-0
 
 # install conda
 RUN wget https://repo.anaconda.com/miniconda/Miniconda3-py37_4.10.3-Linux-x86_64.sh

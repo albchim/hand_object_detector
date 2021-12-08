@@ -15,8 +15,9 @@ data_to_release/
 demo/
 compare/
 
-images/
-images_det/
+images/*
+images_det/*
+out_vids/*
 
 models/*
 predata_dandan/multitask/*.json
